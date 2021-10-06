@@ -21,7 +21,7 @@
   <!-- Process answers and send them by mail -->
   <?php 
   $message="Name:{$_POST['name']}\nEmail:{$_POST['email']}\nInstitution:{$_POST['institution']}\nCountry:{$_POST['country']}\nIn person:{$_POST['presence']}\nMessage:{$_POST['message']}"; 
-  mail("nicolas.barnafi@unimi.it", "[Young MNCM] New participant", $message);
+  mail("nicolas.barnafi@unimi.it,ngocmaimonica.huynh01@universitadipavia.it", "[Young MNCM] New participant", $message);
   ?>
   <p> Thank you for registering. We hope to see you soon! </p>
   <p> Here is a summary of what you just sent: </p>
