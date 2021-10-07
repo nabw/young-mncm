@@ -4,15 +4,10 @@
 <title>Young cardiac modelers</title>
 </head>
 <header>
-    <h1>Young MNCM</h1>
-    <p>Young Researchers Workshop on Mathematical and Numerical Cardiac Modeling</p>
-        <nav>
-	  <a href="index.html">Home</a>
-	  <a href="program.html">Program</a>
-	  <a href="venue.html">Venue</a>
-	  <a href="register.html">Registration</a>
-	  <a href="contact.html">Contact</a>
-	</nav>	
+    <?php 
+	$val = file_get_contents("main_header.php");
+	echo $val;
+    ?>
 </header>
 
 <main>

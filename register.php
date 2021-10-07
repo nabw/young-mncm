@@ -6,36 +6,40 @@
 </head>
 
   <header>
-    <h1>Young MNCM</h1>
-    <p>Young Researchers Workshop on Mathematical and Numerical Cardiac Modeling</p>
-        <nav>
-	  <a href="index.html">Home</a>
-	  <a href="program.html">Program</a>
-	  <a href="venue.html">Venue</a>
-	  <a href="register.html">Registration</a>
-	  <a href="contact.html">Contact</a>
-	</nav>	
+    <?php 
+	$val = file_get_contents("main_header.php");
+	echo $val;
+    ?>
   </header>
 
   <main>
-  <!-- Process answers and send them by mail -->
-  <?php 
-  $message="Name:{$_POST['name']}\nEmail:{$_POST['email']}\nInstitution:{$_POST['institution']}\nCountry:{$_POST['country']}\nIn person:{$_POST['presence']}\nMessage:{$_POST['message']}"; 
-  if (!empty($_POST)) 
-  {
-	  mail("nicolas.barnafi@unimi.it,ngocmaimonica.huynh01@universitadipavia.it", "[Young MNCM] New participant", $message);
-  }
-  ?>
-  <p> Thank you for registering. We hope to see you soon! </p>
-  <p> Here is a summary of what you just sent: </p>
-  <ul>
-	<li> Full name: <?php echo $_POST['name'];?> </li>
-	<li> Email: <?php echo $_POST['email'];?></li>
-	<li> Institution: <?php echo $_POST['institution'];?></li>
-	<li> Country of origin: <?php echo $_POST['country'];?></li>
-	<li> Participation in person: <?php echo $_POST['presence'];?></li>
-        <li> Message: <?php echo $_POST['message'] ?></li>
-  </ul>
+	  <p> To register at the conference, please fill in the form below. Remember that there is physically room for only 50 people, and places will be assigned in a <em>first come, first serve</em> fashion. Still, we will happily comply with the new standard and stream the workshop so that everyone interested con participate. 
+	  </p>
+
+ <form action="register_done.php" method="post">
+    <label for="name">Full Name</label>
+    <input type="text" id="name" name="name" placeholder="Brad Pitt" pattern=[A-Z\sa-z]{3,20} required>
+    <br>
+    <label for="email">Your E-mail</label>
+    <input type="email" id="email" name="email" placeholder="brad.pitt@e.mail" required>
+    <br>
+    <label for="institution">Institution</label>
+    <input type="institution" id="institution" name="institution" placeholder="University of life" required>
+    <br>
+    <label for="country">Country of origin</label>
+    <input type="country" id="country" name="country" placeholder="Chile" required>
+    <br>
+    <label for="presence">Are you planning to attend in person?</label>
+    <select id="presence" name="presence" required>
+        <option value="yes">Yes</option>
+        <option value="no">No</option>
+        <option value="not sure">Not sure</option>
+    </select>
+    <br>
+    <label for="message">If you have any thoughts, suggestions or requirements please let us know.</label>
+    <textarea id="message" name="message" placeholder="Say whatever you want."></textarea>
+  <button type="submit">Register</button>
+</form>
 
   </main>
 
