@@ -13,7 +13,7 @@
   </header>
 
   <main>
-    <p>Welcome to the website of this special workshop created with young researchers in mind. It will take place in the historical city of Pavia on Dec 14 2021, home of the University of Pavia since 1361. </p>
+    <p>Welcome to the website of this special workshop created with young researchers in mind. It will take place in the historical city of Pavia on <strong>Dec 14 2021</strong>, home of the University of Pavia since 1361. </p>
     <p>Its scope is to help promising young scientists develop strong connections in order to create the workforce of tomorrow's 
         leading force in cardiac modeling. The heart poses fertile soil for sophisticated methods to converge, as it is extremely complex
 	by nature, with only noisy data available for its study. </p>
@@ -24,7 +24,16 @@
     <br><br>
     <p align="right"> The organizers </p> 
 
+    <br><br>
     <p> This event is sponsored by GNCS INdaM (Gruppo Nazionale per il Calcolo Scientifico) and Universit&agrave Degli Studi di Pavia. </p>
+    <div class="row">
+        <div class="column">
+	  <img src="images/logo_gncs_indam.png" width=240px >
+        </div>
+        <div class="column">
+	  <img src="images/logo_unipv.png" width=100px >
+        </div>
+    </div>
   </main>
 
   <footer>

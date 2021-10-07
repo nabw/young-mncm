@@ -19,7 +19,8 @@
     <strong>Ngoc Mai Monica Huynh</strong>
 <br>
 <br>mail: ngocmaimonica.huynh01 at universitadipavia dot it
-<br>MSc @ Universit&agrave degli Studi di Milano
+
+<br><br>MSc @ Universit&agrave degli Studi di Milano
 <br>PhD @ Universit&agrave di Pavia
 <br>Post-doc @  Universit&agrave di Pavia
     </p>
@@ -31,7 +32,7 @@
     <strong>Nicolas Alejandro Barnafi</strong>
 <br>
 <br>mail: nicolas.barnafi at unimi dot it
-<br>MSc @ Universidad Cat&oacutelica de Chile
+<br><br>MSc @ Universidad Cat&oacutelica de Chile
 <br> Phd @ Politecnico di Milano
 <br> Post-doc @ Universit&agrave degli Studi di Milano & Universit&agrave di Pavia </dd>
     </p>
@@ -42,7 +43,7 @@
 
 <br>
 <br>
-<h5> Scientific committee </h5>
+<strong> Scientific committee </strong>
 <ul>
 	<li> Simone Scacchi, Universit&agrave degli Studi di Milano </li>
 	<li> Luca Pavarino, Universit&agrave degli Studi di Pavia </li>

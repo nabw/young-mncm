@@ -14,7 +14,6 @@
 
   <main>
 	  <p>The program can be found <a href="https://www.dropbox.com/s/wam8zkx0cc0iez1/program.pdf">here</a>. 
-	  <br> The book of abstracts can be found <a href="https://www.dropbox.com/s/sqq8yb603p5l7ri/book-of-abstracts.pdf">here</a>. </p>
 
 	  <hr>
 
