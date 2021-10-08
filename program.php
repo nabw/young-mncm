@@ -181,7 +181,7 @@ We aimed to overcome many of these remaining challenges by constructing an autom
 
 	<hr>
 	
-	<p><strong>Piersanti, Robert</strong>. Politecnico di Milano </p>
+	<p><strong>Piersanti, Roberto</strong>. Politecnico di Milano </p>
 	<p class="title">Modelling whole heart muscle fibers in electro-mechanical simulations</p>
 	<details>
 		<summary>Abstract</summary>
