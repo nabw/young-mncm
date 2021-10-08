@@ -211,17 +211,6 @@ of myofibers, namely the results of cardiomyocytes orientation, plays a key role
 		</p>
 	</details>
 	<hr>
-	<p><strong>Salvador, Matteo</strong>. Politecnico di Milano </p>
-	<p class="title">A neural network approach for real-time numerical simulations of cardiac electromechanics </p>
-	<details>
-		<summary>Abstract</summary>
-		<p>
-		We devise a Machine Learning algorithm to perform real-time simulations of cardiac electromechanics. Our algorithm allows to derive a reduced-order model (ROM), written as a system of Ordinary Differential Equations, in which the right-hand side is represented by an Artificial Neural Network (ANN), that possibly depends on a set of parameters associated with the model to be surrogated. This method is non-intrusive, as it only requires a collection of pressure-volume transients obtained from the full-order model. Once trained, the ANN-based ROM can be coupled with hemodynamic models describing the external circulation, in the same manner as the original electromechanical model, but at a dramatically reduced computational cost. We demonstrate the effectiveness of the proposed strategy on two different problems. First, we employ the ANN-based ROM to perform a global sensitivity analysis on both the electromechanical and the hemodynamic models. Second, we perform a Bayesian estimation of a couple of parameters starting from noisy measurements of two scalar outputs.
-		</p>
-	</details>
-
-
-	<hr>
 
 	<p><strong>Zingaro, Alberto</strong>. Politecnico di Milano </p>
 	<p class="title">Computational fluid dynamics of blood flow in the human haert: a multiphysics and multiscale model </p>
