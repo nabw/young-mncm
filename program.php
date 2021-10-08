@@ -17,7 +17,7 @@
 
 	  <hr>
 
-	  <p class="author"> Arrieula, Andony</p>
+	  <p> <strong>Arrieula, Andony</strong>. Universit&eacute de Bordeaux </p>
 	  <p class="title">
 	  	A Machine Learning Technique Based on In-Silico Data To Predict Origin Coordinates of Cardiac Arrhythmia
 	  </p>
@@ -34,7 +34,7 @@ We conclude that our method gives useful information to efficiently start a cath
 
 	  <hr>
 	  
-	  <p class="author"> Bartolucci, Chiara</p>
+	  <p > <strong>Bartolucci, Chiara</strong>. Universit&agrave di Bologna</p>
 	  <p class="title"> Novel Computational Model of Human Ventricular Action Potential for Investigate the Extracellular Calcium Effects </p> 
 	 <details>
 	  <summary>Abstract</summary>
@@ -59,7 +59,7 @@ BPS2020 can simulate the physiological APD-[Ca2+]o relationship, while also reta
 
 	<hr>
 
-	<p class="author">Bevilacqua, Tommaso </p>
+	<p> <strong>Bevilacqua, Tommaso</strong>. Universit&agrave degli Studi di Milano </p>
 	<p class="title">BDDC preconditioners for virtual element dicretizations of the Stokes equations </p>
 	<details>
 		<summary>Abstract</summary>
@@ -74,7 +74,7 @@ Here we present a BDDC algorithm to solve the Schur complement system obtained f
 
 	<hr>
 
-	<p class="author">Botti, Sofia & Torre, Michele </p>
+	<p> <strong>Botti, Sofia & Torre, Michele</strong>. Università degli Studi di Pavia </p>
 	<p class="title">Isogeometric simulations of hiPSC-CM cardiac tissue </p>
 	<details>
 		<summary>Abstract</summary>
@@ -93,7 +93,7 @@ Isogeometric Analysis (IGA) reveals to be an effective alternative to Finite Ele
  	
 	<hr>
 
-	<p class="author">Caligari, Silvia </p>
+	<p><strong>Caligari, Silvia</strong>. Universit&agrave degli Studi di Milano & Universit&agrave degli Studi di Milano </p>
 	<p class="title">An electro fluid structure model based on an embedded strategy with application to cardiac simulations </p>
 	<details>
 		<summary>Abstract</summary>
@@ -114,7 +114,7 @@ All numerical simulations are implemented using the open source framework Moose.
 
 	<hr>
 
-	<p class="author">Chegini, Fatemeh </p>
+	<p><strong>Chegini, Fatemeh</strong>. Zuse Institute Berlin </p>
 	<p class="title">Multilevel optimization algorithm for Inverse Problem in Electrocardiography </p>
 	<details>
 		<summary>Abstract</summary>
@@ -125,7 +125,7 @@ All numerical simulations are implemented using the open source framework Moose.
 
 	<hr>
 
-	<p class="author">Cicci, Ludovica </p>
+	<p><strong>Cicci, Ludovica</strong>. Politecnico di Milano </p>
 	<p class="title">A deep learning-based operator approximation for model order reduction in cardiac mechanics
  </p>
 	<details>
@@ -152,7 +152,7 @@ parametrized PDEs. J. Sci. Comput. 87 (61), 2021.
 
 	<hr>
 
-	<p class="author">Gander, Lia </p>
+	<p><strong>Gander, Lia</strong>. Università della Svizzera Italiana </p>
 	<p class="title">Fast characterization of inducible regions of atrial fibrillation models with multi-fidelity Gaussian process classification
  </p>
 	<details>
@@ -165,7 +165,7 @@ parametrized PDEs. J. Sci. Comput. 87 (61), 2021.
 
 	<hr>
 
-	<p class="author">Gillette, Karli </p>
+	<p><strong>Gillette, Karli</strong>. Medizinische Universit&aumlt Graz </p>
 	<p class="title">A Framework for the Generation of Digital Twins of Ventricular Electrophysiology  </p>
 	<details>
 		<summary>Abstract</summary>
@@ -180,8 +180,29 @@ We aimed to overcome many of these remaining challenges by constructing an autom
 
 
 	<hr>
+	
+	<p><strong>Piersanti, Robert</strong>. Politecnico di Milano </p>
+	<p class="title">Modelling whole heart muscle fibers in electro-mechanical simulations</p>
+	<details>
+		<summary>Abstract</summary>
+		<p>
+		A crucial issue in simulating heart electro-mechanics (EM) is accounting and modelling the arrangement of myocardial fibers that characterizes the cardiac tissue. Aggregations
+of myofibers, namely the results of cardiomyocytes orientation, plays a key role in the electric signal propagation and in the myocardial contraction. This motivates the need to accurately include cardiac fibers in EM computational models. Laplace-Dirichlet-Rule-Based-Methods (LDRBMs), which provide a surrogate of myocardial fibers field, are one of the most used strategy to prescribe fiber orientation in EM models. In this work, we present a novel unified LDRBM for generating myocardial whole heart fibers directly on full heart computational model. The methodology is straightforward and can be easily applied to any four chambers geometry. The heart LDRBM includes a detailed myocardial fiber architecture and is able to quantitatively reproduce almost all the features of the different four chambers, particularly those of the right ventricle and the bi-atrial bundles. The validity of the model is demonstrated through EM simulations on a realistic whole heart geometry.
+		</p>
+	</details>
+	<hr>
+	<p><strong>Salvador, Matteo</strong>. Politecnico di Milano </p>
+	<p class="title">A neural network approach for real-time numerical simulations of cardiac electromechanics </p>
+	<details>
+		<summary>Abstract</summary>
+		<p>
+		We devise a Machine Learning algorithm to perform real-time simulations of cardiac electromechanics. Our algorithm allows to derive a reduced-order model (ROM), written as a system of Ordinary Differential Equations, in which the right-hand side is represented by an Artificial Neural Network (ANN), that possibly depends on a set of parameters associated with the model to be surrogated. This method is non-intrusive, as it only requires a collection of pressure-volume transients obtained from the full-order model. Once trained, the ANN-based ROM can be coupled with hemodynamic models describing the external circulation, in the same manner as the original electromechanical model, but at a dramatically reduced computational cost. We demonstrate the effectiveness of the proposed strategy on two different problems. First, we employ the ANN-based ROM to perform a global sensitivity analysis on both the electromechanical and the hemodynamic models. Second, we perform a Bayesian estimation of a couple of parameters starting from noisy measurements of two scalar outputs.
+		</p>
+	</details>
 
-	<p class="author">S&aacutenchez, Jorge </p>
+	<hr>
+
+	<p><strong>S&aacutenchez, Jorge</strong>. Karlsruher Institut f&uumlr Technologie </p>
 	<p class="title">A detailed model of fibrotic tissue and corresponding electrograms </p>
 	<details>
 		<summary>Abstract</summary>
@@ -190,7 +211,7 @@ We aimed to overcome many of these remaining challenges by constructing an autom
 		</p>
 	</details>
 	<hr>
-	<p class="author">Salvador, Matteo </p>
+	<p><strong>Salvador, Matteo</strong>. Politecnico di Milano </p>
 	<p class="title">A neural network approach for real-time numerical simulations of cardiac electromechanics </p>
 	<details>
 		<summary>Abstract</summary>
@@ -202,7 +223,7 @@ We aimed to overcome many of these remaining challenges by constructing an autom
 
 	<hr>
 
-	<p class="author">Zingaro, Alberto </p>
+	<p><strong>Zingaro, Alberto</strong>. Politecnico di Milano </p>
 	<p class="title">Computational fluid dynamics of blood flow in the human haert: a multiphysics and multiscale model </p>
 	<details>
 		<summary>Abstract</summary>
