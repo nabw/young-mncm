@@ -236,8 +236,5 @@ In our CFD model, we adopt the Navier&hyphen;Stokes equations in Arbitrary Lagra
 
   </main>
 
-  <footer>
-    <p>Created by N Barnafi, thanks to G Merli for your help with the hosting and K Quirk for creating simple.css.</p>
-  </footer>
 
 </html>

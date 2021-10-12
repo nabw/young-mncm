@@ -50,4 +50,9 @@
 	<li> Christian Vergara, Politecnico di Milano </li>
 </ul>
 </main>
+
+  <footer>
+    <p>Created by N Barnafi, thanks to G Merli for your help with the hosting and K Quirk for creating simple.css.</p>
+  </footer>
+
 </html>
