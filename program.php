@@ -207,7 +207,11 @@ of myofibers, namely the results of cardiomyocytes orientation, plays a key role
 	<details>
 		<summary>Abstract</summary>
 		<p>
-		TBA
+		During atrial fibrillation (AF), the cardiac tissue suffers an electrical and structural remodeling. On the one hand, electrical remodeling is characterized by a change in the electrophysiology of the cardiac myocytes. On the other hand, structural remodeling is characterized by an increase of myofibroblasts responsible for collagen deposit to maintain the extracellular matrix known as fibrosis. The combination of electrical and structural remodeling in the atrial tissue alters the electrical propagation and changes the morphology of the corresponding electrograms measured at the surface of the tissue.
+
+Highly detailed biophysical models help to understand better the link between the tissue characteristics and the measured electrograms. In this work, we explore the influence of cellular heterogeneity and, together with models of realistic commercially available catheters, characterize the cardiac substrate from the signal morphology.
+Moreover, using in silico data provide valuable information of the tissue underneath the recording electrode. In combination with in vivo recordings from patients with atrial fibrillation, we characterized the atrial substrate from the electrogram morphology. The proposed approach helps to overcome the currently used single voltage threshold that tries to distinguish healthy from pathological tissue and explode the advantage of in silico experiments.
+
 		</p>
 	</details>
 	<hr>
