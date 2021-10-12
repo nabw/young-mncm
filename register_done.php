@@ -38,4 +38,5 @@
   </ul>
 
   </main>
+  <footer></footer>
 </html>
