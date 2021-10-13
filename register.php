@@ -17,9 +17,13 @@
 	  </p>
 
  <form action="register_done.php" method="post">
-    <label for="name">Full Name</label>
+    <label for="name">First Name(s)</label>
     <br>
-    <input type="text" id="name" name="name" placeholder="Name1 Name2 Surname1 Surname2" pattern=[A-Z\sa-z]{3,20} required>
+    <input type="text" id="firstname" name="name" placeholder="Name1 Name2" pattern=[A-Z\sa-z]{3,20} required>
+    <br>
+    <label for="name">Last Name(s)</label>
+    <br>
+    <input type="text" id="lastname" name="name" placeholder="Surname1 Surname2" pattern=[A-Z\sa-z]{3,20} required>
     <br>
     <label for="email">Your E-mail</label>
     <br>
@@ -32,6 +36,10 @@
     <label for="country">Country of origin</label>
     <br>
     <input type="country" id="country" name="country" placeholder="Let us do some nice demographics!" required>
+    <br>
+    <label for="country">Fields of interest</label>
+    <br>
+    <input type="country" id="fields" name="fields" placeholder="Numerical analysis, Mathematical Biology, etc." required>
     <br>
     <label for="presence">Are you planning to attend in person?</label>
     <br>

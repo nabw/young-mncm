@@ -14,7 +14,7 @@
 
   <main>
 	  <p>
-	  The event will take place at Pavia, in the University of Pavia (Universit&agrave degli Studi di Pavia) founded in nothing less than 1361, wihch makes it the 17th oldest university in the world! 
+	  The event will take place in Pavia, at the University of Pavia (Universit&agrave degli Studi di Pavia) founded in nothing less than 1361, wihch makes it the 17th oldest university in the world! 
 
 	  <br>
 	  <img width=600px src="images/uni-pavia.jpg">
