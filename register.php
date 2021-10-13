@@ -19,11 +19,11 @@
  <form action="register_done.php" method="post">
     <label for="name">First Name(s)</label>
     <br>
-    <input type="text" id="firstname" name="name" placeholder="Name1 Name2" pattern=[A-Z\sa-z]{3,20} required>
+    <input type="text" id="firstname" name="firstname" placeholder="Name1 Name2" pattern=[A-Z\sa-z]{3,20} required>
     <br>
     <label for="name">Last Name(s)</label>
     <br>
-    <input type="text" id="lastname" name="name" placeholder="Surname1 Surname2" pattern=[A-Z\sa-z]{3,20} required>
+    <input type="text" id="lastname" name="lastname" placeholder="Surname1 Surname2" pattern=[A-Z\sa-z]{3,20} required>
     <br>
     <label for="email">Your E-mail</label>
     <br>
