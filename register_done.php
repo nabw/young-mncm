@@ -29,13 +29,14 @@
   <p> Thank you for registering. We hope to see you soon! </p>
   <p> Here is a summary of what you just sent: </p>
   <ul>
-	<li> Full name: <?php echo $_POST['name'];?> </li>
+	<li> Full name: <?php echo $_POST['firstname']," ",$_POST['lastname'];?> </li>
 	<li> Email: <?php echo $_POST['email'];?></li>
 	<li> Institution: <?php echo $_POST['institution'];?></li>
 	<li> Country of origin: <?php echo $_POST['country'];?></li>
 	<li> Participation in person: <?php echo $_POST['presence'];?></li>
         <li> Message: <?php echo $_POST['message'] ?></li>
   </ul>
+  <p> In any case, you will receive a copy of the information you just sent to your email. Please let us know if you did not receive such copy.</p>
 
   </main>
   <footer></footer>
