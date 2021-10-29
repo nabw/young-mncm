@@ -33,6 +33,9 @@
         <div class="column">
 	  <img src="images/logo_unipv.png" width=100px >
         </div>
+	<div class="column">
+	  <img src="images/ESB_logo_extended.png" width="350px">
+	</div>
     </div>
   </main>
 

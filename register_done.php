@@ -20,7 +20,7 @@
   <main>
   <!-- Process answers and send them by mail -->
   <?php 
-  $message="Name: {$_POST['firstname']} {$_POST['lastname']}\nEmail: {$_POST['email']}\nInstitution: {$_POST['institution']}\nCountry: {$_POST['country']}\nField(s) of interest: {$_POST['fields']}\nIn person: {$_POST['presence']}\nMessage: {$_POST['message']}"; 
+  $message="Name:  {$_POST['lastname']}, {$_POST['firstname']}\nEmail: {$_POST['email']}\nInstitution: {$_POST['institution']}\nCountry: {$_POST['country']}\nField(s) of interest: {$_POST['fields']}\nIn person: {$_POST['presence']}\nMessage: {$_POST['message']}"; 
   if (!empty($_POST)) 
   {
 	  mail("nicolas.barnafi@unimi.it,ngocmaimonica.huynh01@universitadipavia.it,{$_POST['email']}", "[Young MNCM] New participant", $message);
