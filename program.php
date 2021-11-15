@@ -93,7 +93,7 @@ Isogeometric Analysis (IGA) reveals to be an effective alternative to Finite Ele
  	
 	<hr>
 
-	<p><strong>Caligari, Silvia</strong>. Universit&agrave degli Studi di Milano & Universit&agrave degli Studi di Milano </p>
+	<p><strong>Caligari, Silvia</strong>. Universit&agrave degli Studi di Pavia & Universit&agrave della Svizzera Italiana </p>
 	<p class="title">An electro fluid structure model based on an embedded strategy with application to cardiac simulations </p>
 	<details>
 		<summary>Abstract</summary>
@@ -109,6 +109,21 @@ The structure and the flow solvers are coupled by using an L2-projection method 
 Lastly we insert into the structure's behavior an active force, which would represent muscle contraction in order to create an embryonal connection between the FSI environment end the electrophysiological one.
 <br>
 All numerical simulations are implemented using the open source framework Moose. 
+		</p>
+	</details>
+
+	<hr>
+
+	<p><strong>Cestariolo, Ludovica</strong>. Politecnico di Milano </p>
+	<p class="title">A Computational Study to Model the Electrophysiology of the Zebrafish Heart</p>
+	<details>
+		<summary>Abstract</summary>
+		<p>
+	In recent years, there has been a growing interest in zebrafish due to the electrophysiological similarities with the humans heart. In particular, zebrafish’s spontaneous heart rates and cardiac action potential much more closely resemble that of humans, and QT-interval in electrocardiograms is heart rate dependent in a fasion similar to humans. Thus, the zebrafish has been proposed as a potential model for genetic and pharmacological screening of factors affecting heart functions. However, despite this rising interest, very few studies concern the development of computational models. The following work aims to create a full electrophysiological computational model of the zebrafish heart with the ultimate purpose of assessing the influence of pathologies and drug administration.
+<br>
+The model considers the full body and the two-chambered heart of a 3 days post fertilization zebrafish. A four-variable phenomenological action potential model is used to describe the action potential of different regions of the heart. Tissue conductivity has been calibrated in order to reproduce the activation sequence described in literature.
+<br>
+This model allows the evaluation of the main electrophysiological parameters in terms of activation sequence and timing, AP morphology (i.e., APD90, AP amplitude, maximum and minimum AP derivatives), and ECG morphology (i.e., P-wave, T-wave, and QRS-complex amplitudes and durations). Even though preliminary, the results have been found to be in good agreement with experimental data found in literature. The obtained in-silico ECG reflects the main characteristics of the zebrafish ECG, a P-wave with a duration of approximately the total atrial activation, followed by a QRS complex of approximately 64 ms corresponding to ventricle activation. Future developments comprise the development of a electrophysiological detailed model of the action potential of the zebrafish together with models of the adult zebrafish heart in order to evaluate the effect of anti-arrhythimic drugs.
 		</p>
 	</details>
 

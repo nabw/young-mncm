@@ -18,7 +18,7 @@
     <p align="center">
     <strong>Ngoc Mai Monica Huynh</strong>
 <br>
-<br>mail: ngocmaimonica.huynh01 at universitadipavia dot it
+<br>mail: ngocmaimonica.huynh at unipv dot it
 
 <br><br>MSc @ Universit&agrave degli Studi di Milano
 <br>PhD @ Universit&agrave di Pavia
